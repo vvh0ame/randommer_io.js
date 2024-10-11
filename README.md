@@ -1,10 +1,14 @@
-# randommer_io.py
+# randommer_io.js
 Web-API for [randommer.io](https://randommer.io) website to generate random stuff
 
 ## Example
-```python
-import randommer_io
-randommer_io = randommer_io.RandommerIO()
-random_card = get_card(type="")
-print(random_card)
+```JavaScript
+async function main() {
+	const { RandommerIo } = require("./randommer_io.js")
+	const randommerIo = new RandommerIo("apiKey")
+	const card = await randommerIo.getCar("type")
+  console.log(card(
+}
+
+main()
 ```
