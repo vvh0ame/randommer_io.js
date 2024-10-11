@@ -7,7 +7,7 @@ async function main() {
 	const { RandommerIo } = require("./randommer_io.js")
 	const randommerIo = new RandommerIo("apiKey")
 	const card = await randommerIo.getCar("type")
-  console.log(card(
+  	console.log(card(
 }
 
 main()
